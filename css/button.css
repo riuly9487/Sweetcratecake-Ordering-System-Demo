@@ -1,0 +1,47 @@
+.btn-access {
+    border-style: hidden;
+    border-radius: 8px;
+    background-color:#d568a4;
+
+    padding: 5px 10px;
+
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-cta {
+    border-style: hidden;
+    border-radius: 24px;
+    background-color:#d568a4;
+
+    padding: 20px;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.btn-login, .btn-reset {
+    border-style: hidden;
+    border-radius: 8px;
+    background-color:#d568a4;
+
+    padding: 5px 10px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-return-to-home, .btn-return {
+    border-style: hidden;
+    border-radius: 8px;
+    background-color:#d568a4;
+
+    padding: 5px 10px;
+
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}

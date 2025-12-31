@@ -1,0 +1,38 @@
+.order-form-header {
+    font-size: 28px;
+    font-weight: bold;
+
+    font-family: Pacifico, sans-serif;
+
+    background-color: #eca6be;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+
+    width: 600px;
+}
+
+.form-grid {
+    background-color: #eca6be;
+
+    display: grid;
+    grid-template-columns: 180px 180px;
+    padding: 20px;
+    gap: 5px;
+    margin-top: 20px;
+    border-radius: 12px;
+
+    width: 600px;
+}
+
+.form-cancel, .form-submit {
+    border-style: hidden;
+    border-radius: 8px;
+    background-color:#d568a4;
+
+    padding: 5px 10px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+

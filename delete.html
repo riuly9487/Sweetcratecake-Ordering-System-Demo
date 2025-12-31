@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            Sweetcrate - Admin
+        </title>
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/admin_form.css">
+        <link rel="stylesheet" href="css/tool.css">
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+        <div class="header">
+            <div class="header-logo">
+                <a href="index.html">Sweetcrate</a> 
+            </div>
+            <div class="header-login">
+                <a href="index.html">End Section?</a>
+            </div>
+        </div>
+        <div class="tool-section">
+            <div class="update-section">
+                <div class="order-form">
+                <div class="order-form-header">
+                    Delete Customer Order 
+                </div>
+                <form class="form-grid" action="p_delete.py" method="post">
+                    <div class="form-title">
+                        Order ID:
+                    </div>
+                    <div class="form-values">
+                        <INPUT class="form-customer-id" type="text" name="order_id">
+                    </div>
+                    <div>
+                        <INPUT class="form-cancel" type="reset" value="Reset">	 
+                    </div>
+                    <div>
+                        <INPUT class="form-submit" type="submit" value="Delete">
+                    </div>
+                </form>
+            </div>
+            </div>
+            <a href="admin_index.html">
+                <button class="btn-return">
+                    Return
+                </button>
+            </a>
+        </div>
+    </body>
+</html>

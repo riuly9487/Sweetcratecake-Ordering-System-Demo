@@ -1,0 +1,24 @@
+.header {
+    background-color: #eca6be;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.header-logo {
+    font-size: 32px;
+    font-weight: bold;
+    
+    font-family: Pacifico, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}

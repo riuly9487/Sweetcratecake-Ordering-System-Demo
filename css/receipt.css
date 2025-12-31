@@ -1,0 +1,17 @@
+.receipt-section {
+    background-color: #eca6be;
+    width: 420px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.receipt-table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+td {
+    padding: 6px;
+    text-align: left;
+}

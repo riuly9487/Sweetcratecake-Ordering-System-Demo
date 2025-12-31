@@ -1,0 +1,11 @@
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+
+    background-color: #eca6be;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 12px;
+}

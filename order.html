@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweetcrate - Custom Cake Order</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- PRICE CALCULATION -->
+    <script>
+        function calculateTotal() {
+            let total = 0;
+            document.querySelectorAll("select").forEach(sel => {
+                const price = sel.options[sel.selectedIndex].dataset.price;
+                if (price) total += parseInt(price);
+            });
+            document.getElementById("totalPrice").innerText = "RM " + total;
+            document.getElementById("total").value = total;
+        }
+        window.onload = calculateTotal;
+    </script>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="header-logo">
+        <a href="index.html">Sweetcrate</a> 
+    </div>
+    <div class="header-login">
+        <a href="login.html">Admin Login?</a>
+    </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="order-section">
+
+    <!-- LEFT : MENU GRID -->
+    <div class="order-menu-grid">
+
+        <!-- TITLES -->
+        <div class="order-menu-title">Flavours</div>
+        <div class="order-menu-title">Sizes</div>
+        <div class="order-menu-title">Toppings</div>
+        <div class="order-menu-title">Icing</div>
+        <div class="order-menu-title">Themes</div>
+
+        <!-- ROW 1 -->
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/chocolateflavour.png">
+                <div class="item-name">Chocolate</div>
+            </div>
+            <div class="order-menu-item">RM5</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/bigcake.png">
+                <div class="item-name">Big Cake</div>
+            </div>
+            <div class="order-menu-item">RM300</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/sprinkletoping.png">
+                <div class="item-name">Sprinkle</div>
+            </div>
+            <div class="order-menu-item">RM3</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/vanilacream.png">
+                <div class="item-name">Vanilla Cream</div>
+            </div>
+            <div class="order-menu-item">RM1</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/wedding.png">
+                <div class="item-name">Wedding</div>
+            </div>
+            <div class="order-menu-item">RM100</div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/vanilaflavour.png">
+                <div class="item-name">Vanilla</div>
+            </div>
+            <div class="order-menu-item">RM1</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/mediumcake.png">
+                <div class="item-name">Medium Cake</div>
+            </div>
+            <div class="order-menu-item">RM160</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/chocolatetoping.png">
+                <div class="item-name">Chocolate</div>
+            </div>
+            <div class="order-menu-item">RM5</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/buttercream.png">
+                <div class="item-name">Buttercream</div>
+            </div>
+            <div class="order-menu-item">RM1</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/birthday.png">
+                <div class="item-name">Birthday</div>
+            </div>
+            <div class="order-menu-item">RM100</div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/strawberry.png">
+                <div class="item-name">Strawberry</div>
+            </div>
+            <div class="order-menu-item">RM10</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/smallcake.png">
+                <div class="item-name">Small Cake</div>
+            </div>
+            <div class="order-menu-item">RM80</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/fruitytoping.png">
+                <div class="item-name">Fruity</div>
+            </div>
+            <div class="order-menu-item">RM15</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/berrycream.png">
+                <div class="item-name">Berry Cream</div>
+            </div>
+            <div class="order-menu-item">RM10</div>
+        </div>
+
+        <div>
+            <div class="order-menu-item">
+                <img class="image-menu-item" src="images/custom.png">
+                <div class="item-name">Custom Theme</div>
+            </div>
+            <div class="order-menu-item">RM100</div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT : ORDER FORM -->
+    <div class="order-form">
+
+        <div class="order-form-header">Your Customisation</div>
+
+        <form class="form-grid"
+              action="p_receipt.py"
+              method="post"
+              enctype="multipart/form-data">
+
+            <div class="form-title">Customer Name</div>
+            <div class="form-values">
+                <input type="text" name="customer_name" required>
+            </div>
+
+            <div class="form-title">Flavours</div>
+            <div class="form-values">
+                <select name="flavours" onchange="calculateTotal()">
+                    <option data-price="5">Chocolate</option>
+                    <option data-price="1">Vanilla</option>
+                    <option data-price="10">Strawberry</option>
+                </select>
+            </div>
+
+            <div class="form-title">Sizes</div>
+            <div class="form-values">
+                <select name="sizes" onchange="calculateTotal()">
+                    <option data-price="300">Big</option>
+                    <option data-price="160">Medium</option>
+                    <option data-price="80">Small</option>
+                </select>
+            </div>
+
+            <div class="form-title">Toppings</div>
+            <div class="form-values">
+                <select name="toppings" onchange="calculateTotal()">
+                    <option data-price="3">Sprinkle</option>
+                    <option data-price="5">Chocolate</option>
+                    <option data-price="15">Fruity</option>
+                </select>
+            </div>
+
+            <div class="form-title">Icing</div>
+            <div class="form-values">
+                <select name="icing" onchange="calculateTotal()">
+                    <option data-price="1">Vanilla Cream</option>
+                    <option data-price="1">Buttercream</option>
+                    <option data-price="10">Berry Cream</option>
+                </select>
+            </div>
+
+            <div class="form-title">Themes</div>
+            <div class="form-values">
+                <select name="themes" onchange="calculateTotal()">
+                    <option data-price="100">Wedding</option>
+                    <option data-price="100">Birthday</option>
+                    <option data-price="100">Custom</option>
+                </select>
+            </div>
+
+            <div class="form-title">Reference Images</div>
+            <div class="form-values">
+                <input type="file" name="filename" enctype="multipart/form-data">
+            </div>
+
+            <div class="form-title">Total Price</div>
+            <div class="form-values">
+                <strong id="totalPrice">RM 0</strong>
+                <input type="hidden" name="total" id="total">
+            </div>
+
+            <div>
+                <input class="form-cancel" type="reset" value="Reset" onclick="calculateTotal()">
+            </div>
+            <div>
+                <input class="form-submit" type="submit" value="Place Order">
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

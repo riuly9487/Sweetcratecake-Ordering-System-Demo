@@ -1,0 +1,29 @@
+.admin-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.admin-control-section {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.admin-tool-section {
+
+    font-family: Pacifico, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-tool-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+

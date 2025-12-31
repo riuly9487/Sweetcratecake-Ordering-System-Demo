@@ -1,0 +1,47 @@
+.tool-section {
+    margin-left: 20px;
+}
+
+.record-table-grid {
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+
+.record-table-title {
+    background-color: #eca6be;
+    padding: 5px 10px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.record-table-content {
+    background-color: #ffcbdd;
+    padding: 5px 10px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    cursor: pointer;
+    transition: 0.8s background-color, 0.8s color;
+}
+
+.record-image {
+    width: 120px;
+    height: 120px;
+}
+
+.record-table-content:hover {
+    background-color: #f185aa;
+    color: white;
+}

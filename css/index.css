@@ -1,0 +1,41 @@
+.index-hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 20px 60px;
+}
+
+.index-hero-description {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 20px;
+}
+
+.index-hero-header {
+    font-size: 48px;
+    font-weight: bold;
+
+    font-family: Pacifico, sans-serif;
+
+}
+
+.index-hero-cta {
+    font-size: 32px;
+
+}
+
+.index-hero-header, .index-hero-cta {
+    margin-bottom: 20px;
+}
+
+.hero-image-container {
+    justify-self: center;
+    align-self: center;
+}
+
+.hero-image {
+    height: 512px;
+    width: 512px;
+}

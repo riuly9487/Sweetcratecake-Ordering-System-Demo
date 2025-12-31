@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>
+            Sweetcrate - Admin
+        </title>
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/admin_form.css">
+        <link rel="stylesheet" href="css/tool.css">
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo">
+                <a href="index.html">Sweetcrate</a> 
+            </div>
+            <div class="header-login">
+                <a href="index.html">End Section?</a>
+            </div>
+        </div>
+        <div class="tool-section">
+            <div class="update-section">
+                <div class="order-form">
+                <div class="order-form-header">
+                    Update Customer Order 
+                </div>
+                <form class="form-grid" action="p_update.py" method="post">
+                    <div class="form-title">
+                        Order ID:
+                    </div>
+                    <div class="form-values">
+                        <INPUT class="form-customer-id" type="text" name="order_id">
+                    </div>
+                    <div class="form-title">
+                        Customer Name:
+                    </div>
+                    <div class="form-values">
+                        <INPUT class="form-customer-name" type="text" name="customer_name">
+                    </div>
+                    <div class="form-title">
+                        Flavours:
+                    </div>
+                    <div class="form-values">
+                        <select name="flavours">
+                            <option value="Chocolate">Chocolate</option>
+							<option value="Vanilla">Vanilla</option>
+							<option value="Strawberry">Strawberry</option>
+                        </select>
+                    </div>
+                    <div class="form-title">
+                        Sizes:
+                    </div>
+                    <div class="form-values">
+                        <select name="sizes">
+                            <option value="Big">Big</option>
+							<option value="Medium">Medium</option>
+							<option value="Small">Small</option>
+                        </select>
+                    </div>
+                    <div class="form-title">
+                        Toppings:
+                    </div>
+                    <div class="form-values">
+                        <select name="toppings">
+                            <option value="Sprinkle">Sprinkle</option>
+                            <option value="Chocolate Topping">Chocolate Topping</option>
+                            <option value="Fruity">Fruity</option>
+                        </select>
+                    </div>
+                    <div class="form-title">
+                        Icing:
+                    </div>
+                    <div class="form-values">
+                        <select name="icing">
+                            <option value="Vanilla Cream">Vanilla Cream</option>
+                            <option value="Buttercream">Buttercream</option>
+                            <option value="Berry Cream">Berry cream</option>
+                        </select>
+                    </div>
+                    <div class="form-title">
+                        Themes:
+                    </div>
+                    <div class="form-values">
+                        <select name="themes">
+                            <option value="Wedding">Wedding</option>
+                            <option value="Birthday">Birthday</option>
+                            <option value="Custom">Custom</option>
+                        </select>
+                    </div>
+                    <div class="form-title">
+                        References:
+                    </div>
+                    <div class="form-values">
+                        <INPUT type="file" name="filename" enctype="multipart/form-data">
+                    </div>
+                    <div>
+                        <INPUT class="form-cancel" type="reset" value="Reset">	 
+                    </div>
+                    <div>
+                        <INPUT class="form-submit" type="submit" value="Update">
+                    </div>
+                </form>
+            </div>
+            </div>
+            <a href="admin_index.html">
+                <button class="btn-return">
+                    Return
+                </button>
+            </a>
+        </div>
+    </body>
+</html>
