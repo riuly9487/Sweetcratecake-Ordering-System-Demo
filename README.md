@@ -9,7 +9,15 @@ for SCCVK3013 WWW PROGRAMMING semester A251 session 2025/2026 group A <br>
 
 Title: SWEETCRATE CUSTOM CAKES <br>
 
-Sweetcratecake Custom Cakes
+INTRODUCTION <br>
+SweetCrate Custom Cakes is a web-based cake ordering system developed to streamline the process of ordering customised cakes. The platform allows users to personalise their cake selections by choosing flavours, sizes, toppings, icing types, and theme-based decorations through an intuitive interface.
+This project was developed using HTML for structure, CSS for styling and layout, and Python for backend processing such as price calculation and data handling. It was created as a learning-focused project to apply fundamental web development concepts, including user interaction, form processing, and basic database integration.
+SweetCrate Custom Cakes aims to provide an efficient and user-friendly solution for small bakery businesses and customers alike. <br>
+FEATURES <br>
+	•	Supports full cake customisation, allowing users to select flavours, sizes, toppings, icing types, and theme-based decorations. <br>
+	•	Implements a dynamic price calculation module using Python to compute total costs in real time based on selected options. <br>
+	•	Integrates a database system for secure storage and management of customer profiles and order records. <br>
+	•	Includes an image upload module to enable users to submit design references for clearer order communication. <br>
 
 = = = = = = = Preview = = = = = = =
 index.html
@@ -49,9 +57,9 @@ delete.html
 p_delete.py
 <img width="1920" height="1200" alt="{69452F08-067E-492E-912F-A5ED2C214028}" src="https://github.com/user-attachments/assets/068dbf5b-fba4-418b-8843-a8a7792e91f0" />
 
-= = = = = = = Database via Xampp = = = = = = =
-Database Name: Sweetcratecake_db
-Database Table Name: Sweetcratecake_tbl & admin_tbl
+= = = = = = = Database via Xampp = = = = = = = <br>
+Database Name: Sweetcratecake_db <br>
+Database Table Name: Sweetcratecake_tbl & admin_tbl <br>
 
 Sweetcratecake_tbl
 <img width="1920" height="1200" alt="{39D67A7D-96BF-4569-9ACE-DD2815283166}" src="https://github.com/user-attachments/assets/46353b69-16aa-4886-84d2-935264a2dcf5" />
