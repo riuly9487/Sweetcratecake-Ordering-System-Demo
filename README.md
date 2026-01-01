@@ -19,7 +19,7 @@ FEATURES <br>
 	•	Integrates a database system for secure storage and management of customer profiles and order records. <br>
 	•	Includes an image upload module to enable users to submit design references for clearer order communication. <br>
 
-= = = = = = = Preview = = = = = = =
+= = = = = = = Preview = = = = = = = <br>
 index.html
 <img width="1920" height="1200" alt="{088A4CF5-126C-4A3E-901E-B5DD70AE774D}" src="https://github.com/user-attachments/assets/4f5bb22c-f009-4fdc-9c4f-a28dc254e274" />
 
